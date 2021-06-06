@@ -34,6 +34,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white nav__header">
+
         <div class="container-fluid">
             <button
                     class="navbar-toggler"
@@ -73,12 +74,12 @@
                 </ul>
 
                 <div class="d-flex align-items-center">
-                    <button type="button" class="btn btn-link link-button__header btn-rounded px-3 me-2">
+                    <a type="button" class="btn btn-link link-button__header btn-rounded px-3 me-2">
                         Iniciar Sesión
-                    </button>
-                    <button type="button" class="btn btn-primary button__header btn-rounded me-3">
+                    </a>
+                    <a type="button" href="form.php" class="btn btn-primary button__header btn-rounded me-3">
                         Crear una cuenta
-                    </button>
+                    </a>
                     <a
                             class="btn btn-dark btn-rounded px-3"
                             href="https://github.com/mdbootstrap/mdb-ui-kit"
@@ -89,7 +90,9 @@
 
             </div>
         </div>
+
     </nav>
+
     <!-- Navbar -->
 
     <!-- Background image
@@ -473,10 +476,11 @@
 
 </header>
 
-
+<script type="text/javascript" src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/mdb.min.js"></script>
+
 </body>
 </html>
