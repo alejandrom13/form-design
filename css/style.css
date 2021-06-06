@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+:root{
+    --button-bg-color: #0b4121;
+    --button-hover-color: #148746;
+    --link-button-color: #289B1E;
+    --link-button-hover-color: #D7E7D5;
+}
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+/*=======HEADER========*/
+.nav__header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.carousel__header{
+    z-index: 0;
+}
+
+.title__header{
+    color: #106A37;
+    margin-right: 3rem;
+}
+
+.button__header{
+    background-color: var(--button-bg-color);
+}
+.button__header:hover{
+    background-color: var(--button-hover-color);
+}
+.button__header:focus{
+    background-color: var(--button-bg-color);
+}
+
+.link-button__header{
+    color: var(--link-button-color);
+}
+.link-button__header:hover{
+    background-color: var(--link-button-hover-color);
+    color: var(--link-button-color);
+}
+.btn__slide{
+    background-color: #FFDE5A;
+    color: black;
+}
+.btn__slide:hover{
+    background-color: #D2B84D;
+    color: black;
+
+}
+.btn__slide:focus{
+    background-color: #D2B84D;
+    color: black;
+}
+
+
+/*FORM PAGE*/
+.breadcumb__header{
+    overflow: hidden;
+    margin-top: 5rem;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
